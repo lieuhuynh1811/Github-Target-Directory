@@ -1,0 +1,105 @@
+{
+  "keywordFileContentHash": "EC82488BA3AFF0BBC109890603903D88",
+  "keywordClasses": [
+    {
+      "name": "com.katalon.plugin.keyword.zip.ZipKeywords",
+      "keywordMethods": [
+        {
+          "name": "zipFolder",
+          "parameters": [
+            {
+              "name": "path",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Add folder to zip file\r\n\t *\r\n\t * @param path The path of the folder needs to be zipped\r\n\t * @return The full path of the zipped folder\r\n\t */"
+        },
+        {
+          "name": "zipFile",
+          "parameters": [
+            {
+              "name": "file",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Add file to zip file\r\n\t *\r\n\t * @param file The full path of the file needs to be zipped\r\n\t * @return The full path of the zipped file\r\n\t */"
+        },
+        {
+          "name": "unZip",
+          "parameters": [
+            {
+              "name": "file",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "password",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Unzip an file\r\n\t *\r\n\t * @param file The full path of the file needs to be unzipped\r\n\t * @param password The password to unzip the file if any. If the zipped file is not encrypted, the password can be null\r\n\t * @return The full path of the unzipped file\r\n\t */"
+        },
+        {
+          "name": "initZipParameter",
+          "parameters": [],
+          "javadoc": "/**\r\n\t * Initiate Zip Parameters\r\n\t */"
+        },
+        {
+          "name": "createZipFile",
+          "parameters": [
+            {
+              "name": "path",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Initiate a ZipFile object\r\n\t * @param path The path to create the zip file\r\n\t * @return a ZipFile object\r\n\t */"
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
